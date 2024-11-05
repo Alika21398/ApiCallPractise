@@ -35,6 +35,7 @@ const App = () => {
   useEffect(() => {
     moviesAPI();
   }, []);
+  
   console.log("data", Actors);
 
   return (
